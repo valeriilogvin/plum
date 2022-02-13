@@ -1,0 +1,176 @@
+.select2-container {
+    height: 70px !important;
+}
+
+.select2-container .select2-selection--single {
+    height: 67px !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    height: 67px !important;
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+}
+
+.select2-container .select2-selection--single .select2-selection__arrow {
+    height: 67px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.amount-of-customs-payments-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.c-p-w {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.customs-payments-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.customs-payments-block {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.customs-payments-block:nth-child(1) {
+    padding-right: 25px;
+}
+
+.customs-payments-block .title {
+    font-size: 17px;
+    font-weight: 500;
+    white-space: pre-wrap;
+}
+
+.customs-payments-block .description {
+    font-size: 17px;
+    font-weight: 100;
+    white-space: pre-wrap;
+}
+
+.amount-of-customs-payments-total-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+.customs-payments-total {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.customs-payments-total .title {
+    font-size: 17px;
+    font-weight: 500;
+    white-space: pre-wrap;
+}
+
+.customs-payments-total .total-sum {
+    font-size: 24px;
+    font-weight: 600;
+    white-space: pre-wrap;
+}
+
+.total-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.total-wrapper .divider {
+    width: 100%;
+    border: 1px solid #000;
+}
+
+.total-wrapper .total-title {
+    font-size: 32px;
+    font-weight: 600;
+    padding: 0 10px;
+    white-space: nowrap;
+}
+
+.all-total-title {
+    font-size: 21px;
+    font-weight: 800;
+    color: #f5913c;
+    white-space: pre-wrap;
+}
+
+@media screen and (max-width: 768px) {
+
+    .customs-payments-block .title {
+        font-size: 14px;
+    }
+
+    .customs-payments-total .title {
+        font-size: 14px;
+    }
+
+    .total-wrapper .total-title {
+        font-size: 21px;
+    }
+
+    .all-total-title {
+        width: 60%;
+        font-size: 14px;
+    }
+
+    .c-p-w {
+        flex-direction: column;
+    }
+    
+    .customs-payments-wrapper {
+        flex-direction: column;
+    }
+   
+    .amount-of-customs-payments-wrapper {
+        flex-direction: column;
+    }
+
+    .customs-payments-block {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+
+    .customs-payments-block:nth-child(1) {
+        padding-right: unset;
+    }
+
+    .customs-payments-wrapper:nth-child(2) {
+        margin-top: 0px;
+    }
+
+}
